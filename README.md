@@ -59,7 +59,7 @@ Each service is designed to be independent, scalable, and optimized for its func
 
 ---
 
-## 🔥 Setup & Running Locally
+## 🔥 Setup & Running Locally ( TO BE ADDRESSED )
 
 ### **1️⃣ Prerequisites**
 Ensure you have the following installed:
@@ -70,28 +70,6 @@ Ensure you have the following installed:
 - **Rust & Cargo**
 - **Kotlin & Gradle**
 
-### **2️⃣ Clone the Repository**
-```bash
-git clone https://github.com/your-repo/social-app-backend.git
-cd social-app-backend
-```
-
-### **3️⃣ Start Services with Docker**
-```bash
-docker-compose up -d
-```
-
-### **4️⃣ Running Kotlin Services**
-```bash
-cd services/user-service  # Example for UserService
-./gradlew run
-```
-
-### **5️⃣ Running Rust Services**
-```bash
-cd services/graph-service  # Example for GraphService
-cargo run
-```
 
 ---
 
@@ -120,9 +98,9 @@ cargo run
 ---
 
 ## 🔄 Future Improvements
-✅ Add support for GraphQL.
-✅ Implement machine learning-based recommendations.
-✅ Improve API security (OAuth, JWT).
+✅ Add support for GraphQL. (~MAYBE)
+✅ Implement machine learning-based recommendations. (~MAYBE)
+✅ Improve API security (OAuth, JWT). (~MAYBE)
 
 ---
 
