@@ -11,7 +11,8 @@ Each service is designed to be independent, scalable, and optimized for its func
 ### **🔹 Kotlin-Based Services** (Business Logic & APIs)
 | Service Name       | Responsibility                                      | Tech Stack                        |
 |-------------------|-------------------------------------------------|--------------------------------|
-| **UserService**     | Authentication, profiles, settings              | Kotlin + Ktor/Spring Boot + PostgreSQL |
+| **UserService**     | Account creation, profiles, settings             | Kotlin + Spring  + PostgreSQL + Redis |
+| **Api GTW**         | JWT auth and session                             | Kotlin + Spring + Redis + PostgresSQL |
 | **PostService**     | Creating, liking, and sharing posts              | Kotlin + Ktor + PostgreSQL      |
 | **CommentService**  | Handles comments and replies                     | Kotlin + Ktor + PostgreSQL      |
 | **NotificationService** | Manages real-time notifications (push, email, in-app) | Kotlin + Ktor + Kafka + Redis  |
