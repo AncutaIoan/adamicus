@@ -12,7 +12,7 @@ Each service is designed to be independent, scalable, and optimized for its func
 | Service Name       | Responsibility                                      | Tech Stack                        |
 |-------------------|-------------------------------------------------|--------------------------------|
 | **[UserService](https://github.com/AncutaIoan/user-service)**     | Account creation, profiles, settings             | Kotlin + Spring  + PostgreSQL + Redis + MongoDB |
-| **[Api GTW](https://github.com/AncutaIoan/gateway)**         | JWT auth and session                             | Kotlin + Spring + Redis + PostgresSQL |
+| **[Api GTW](https://github.com/AncutaIoan/gateway)**         | JWT auth and session                             | Kotlin + Spring + Redis |
 | **PostService**     | Creating, liking, and sharing posts              | Kotlin + Ktor + PostgreSQL      |
 | **CommentService**  | Handles comments and replies                     | Kotlin + Ktor + PostgreSQL      |
 | **NotificationService** | Manages real-time notifications (push, email, in-app) | Kotlin + Ktor + Kafka + Redis  |
